@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     statValues.forEach((el) => animateCount(el));
   }
 
- /* ---------- Contact form submission ---------- */
+/* ---------- Contact form submission ---------- */
 
 const contactForm = document.getElementById('contactForm');
 
@@ -114,8 +114,10 @@ if (contactForm) {
       contactForm.querySelector('button[type="submit"]');
 
     if (submitBtn) {
+
       submitBtn.disabled = true;
-      submitBtn.textContent = 'Submitting...';
+      submitBtn.innerHTML = 'Submitting...';
+
     }
 
   });
