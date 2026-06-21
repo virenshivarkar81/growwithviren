@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Dynamic meta filled by JS -->
+  <title>Loading... | GrowWithViren</title>
+<meta name="description" content="">
+<meta name="keywords" id="keywordsMeta" content="">
+
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:url" content="">
+
+<link rel="canonical" id="canonicalUrl" href="">  
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect rx='22' width='100' height='100' fill='%232F5BFF'/%3E%3Cpath d='M28 62 L42 38 L58 52 L72 30' stroke='white' stroke-width='8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="../css/post.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a href="../index.html" class="navbar__logo" aria-label="GrowWithViren home">
+        <span class="navbar__logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M3 14L8 8L13 12L21 4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 4H21V10" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="navbar__logo-text">Grow<strong>With</strong>Viren</span>
+      </a>
+      <button class="navbar__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation menu">
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+        <span class="navbar__toggle-bar"></span>
+      </button>
+      <ul class="navbar__menu" id="navMenu">
+        <li><a href="../index.html" class="navbar__link">Home</a></li>
+        <li><a href="../index.html#about" class="navbar__link">About</a></li>
+        <li><a href="../resources.html" class="navbar__link navbar__link--active">Resources</a></li>
+        <li><a href="../index.html#services" class="navbar__link">Services</a></li>
+        <li><a href="../testimonials.html" class="navbar__link">Testimonials</a></li>
+        <li><a href="../index.html#contact" class="navbar__link navbar__link--cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Loading state -->
+    <div id="postLoading" class="post-loading">
+      <div class="spinner" aria-label="Loading post..."></div>
+    </div>
+
+    <!-- Error state -->
+    <div id="postError" class="page-section" hidden>
+      <div class="container" style="text-align:center; padding: 80px 24px;">
+        <p class="eyebrow">404 — Not Found</p>
+        <h1 class="section-title">Resource not found</h1>
+        <p style="color:var(--ink-muted); margin: 16px 0 32px;">This resource may have been moved or the link is incorrect.</p>
+        <a href="../resources.html" class="btn btn--primary">← Back to Resources</a>
+      </div>
+    </div>
+
+    <!-- Post content — injected by JS -->
+    <article id="postContent" hidden>
+
+      <!-- Post header -->
+      <section class="post-hero">
+        <div class="container post-hero__inner">
+          <nav class="breadcrumb">
+
+  <a href="../index.html">Home</a>
+
+  <span>›</span>
+
+  <a href="../resources.html">Resources</a>
+
+  <span>›</span>
+
+  <span id="breadcrumbCategory"></span>
+
+</nav>
+
+<a href="../resources.html" class="post-back">
+  ← All Resources
+</a>
+          <div class="post-hero__meta">
+            <span class="resource-card__badge" id="postBadge"></span>
+            <span class="post-meta-item" id="postDate"></span>
+            <span class="post-meta-item" id="postReadTime"></span>
+          </div>
+          <h1 class="post-title" id="postTitle"></h1>
+          <p class="post-subtitle" id="postSummary"></p>
+        </div>
+      </section>
+
+      <!-- Q&A Content -->
+      <section class="page-section">
+        <div class="container post-layout">
+          <div class="post-body" id="postBody">
+            <!-- Q&A items injected here -->
+          </div>
+
+          <!-- Sidebar -->
+          <aside class="post-sidebar">
+            <div class="sidebar-card">
+              <h3 class="sidebar-card__title">Want a resume that gets noticed?</h3>
+              <p class="sidebar-card__text">Get a personalized ATS-friendly resume review — free.</p>
+              <a href="../index.html#contact" class="btn btn--primary" style="width:100%; margin-top:16px; justify-content:center;">Request Free Review</a>
+            </div>
+
+            <div class="sidebar-card">
+
+  <h3 class="sidebar-card__title">
+    On This Page
+  </h3>
+
+  <ul class="toc-list" id="tocList">
+
+  </ul>
+
+</div>
+
+            <div class="sidebar-card sidebar-card--soft" id="relatedPosts">
+              <h3 class="sidebar-card__title">More Resources</h3>
+              <ul class="related-list" id="relatedList">
+                <!-- Injected by JS -->
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="page-section">
+  <div class="container">
+
+    <div class="share-buttons">
+
+      <button id="shareLinkedIn" class="btn btn--ghost">
+        Share on LinkedIn
+      </button>
+
+      <button id="shareWhatsApp" class="btn btn--ghost">
+        Share on WhatsApp
+      </button>
+
+      <button id="copyLink" class="btn btn--primary">
+        Copy Link
+      </button>
+
+    </div>
+
+  </div>
+</section>
+
+      <!-- Post CTA -->
+      <section class="page-section page-section--soft">
+        <div class="container">
+          <div class="cta-banner">
+            <h3 class="cta-banner__title">Found this helpful? Share it with someone preparing for interviews.</h3>
+            <a href="../index.html#contact" class="btn btn--accent btn--pulse">Get Resume Help</a>
+          </div>
+        </div>
+      </section>
+
+    </article>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__brand">
+        <a href="../index.html" class="navbar__logo navbar__logo--footer">
+          <span class="navbar__logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 14L8 8L13 12L21 4" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 4H21V10" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="navbar__logo-text">Grow<strong>With</strong>Viren</span>
+        </a>
+        <p class="site-footer__tagline">Helping Professionals Unlock New Opportunities</p>
+      </div>
+      <nav class="site-footer__links" aria-label="Footer navigation">
+        <a href="../index.html">Home</a>
+        <a href="../resources.html">Resources</a>
+        <a href="../testimonials.html">Testimonials</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="site-footer__bottom">
+      <p>&copy; <span id="currentYear"></span> GrowWithViren. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+  <script src="../js/post.js"></script>
+</body>
+</html>

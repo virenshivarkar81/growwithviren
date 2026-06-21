@@ -1,0 +1,622 @@
+[
+  {
+    "id": "qa-interview-questions",
+    "title": "Top QA Interview Questions",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "QA",
+      "Manual Testing",
+      "Interview Questions"
+    ],
+    "badge": "QA",
+    "summary": "Top QA interview questions covering testing fundamentals and real-world scenarios.",
+    "date": "2026-08-01",
+    "readTime": "10 min read",
+    "featured": true,
+    "content": []
+  },
+  {
+    "id": "selenium-interview-questions",
+    "title": "Top Selenium Interview Questions",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "Selenium",
+      "Automation Testing",
+      "QA"
+    ],
+    "badge": "Selenium,QA",
+    "summary": "Frequently asked Selenium automation interview questions.",
+    "date": "2026-08-04",
+    "readTime": "12 min read",
+    "featured": true,
+    "content": [
+      {
+        "heading": "What is Selenium?",
+        "body": "Selenium is an open-source automation testing tool used for web application testing.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What are the components of Selenium Suite?",
+        "body": "Selenium IDE, Selenium RC (deprecated), Selenium WebDriver, and Selenium Grid.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is WebDriver?",
+        "body": "WebDriver is an API that interacts directly with browsers for automation.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is Selenium Grid?",
+        "body": "Selenium Grid enables parallel execution across multiple browsers and machines.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "How do you handle dropdowns in Selenium?",
+        "body": "Using the Select class and its methods such as selectByVisibleText().",
+        "codeType": "",
+        "code": ""
+      }
+    ]
+  },
+  {
+    "id": "playwright-interview-questions",
+    "title": "Top Playwright Interview Questions",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "Playwright",
+      "Automation Testing",
+      "QA"
+    ],
+    "badge": "Playwright,QA",
+    "summary": "Latest Playwright interview questions covering locators, fixtures, and frameworks.",
+    "date": "2026-08-05",
+    "readTime": "14 min read",
+    "featured": true,
+    "content": [
+      {
+        "heading": "What is Playwright?",
+        "body": "Playwright is a modern browser automation framework developed by Microsoft.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "Which browsers are supported by Playwright?",
+        "body": "Chromium, Firefox, and WebKit.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What are Playwright locators?",
+        "body": "Locators are recommended methods for finding elements reliably.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is auto-waiting in Playwright?",
+        "body": "Playwright automatically waits for elements to become actionable.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "How is Playwright better than Selenium?",
+        "body": "Playwright offers built-in waiting, multiple browser support, and faster execution.",
+        "codeType": "",
+        "code": ""
+      }
+    ]
+  },
+  {
+    "id": "api-testing-interview-questions",
+    "title": "Top API Testing Interview Questions",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "API Testing",
+      "Postman",
+      "Rest Assured"
+    ],
+    "badge": "API Testing,QA",
+    "summary": "REST API testing interview questions with practical examples.",
+    "date": "2026-08-06",
+    "readTime": "10 min read",
+    "featured": true,
+    "content": [
+      {
+        "heading": "What is API Testing?",
+        "body": "API Testing validates functionality, reliability, performance, and security of APIs.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is REST API?",
+        "body": "REST is an architectural style that uses HTTP methods for communication.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What are common HTTP methods?",
+        "body": "GET, POST, PUT, PATCH, DELETE.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is a 404 status code?",
+        "body": "It indicates that the requested resource was not found.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "Which tools are used for API testing?",
+        "body": "Postman, Rest Assured, SoapUI, and JMeter.",
+        "codeType": "",
+        "code": ""
+      }
+    ]
+  },
+  {
+    "id": "sql-interview-questions",
+    "title": "Top SQL Interview Questions",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "SQL",
+      "Database",
+      "QA"
+    ],
+    "badge": "SQL,QA",
+    "summary": "Essential SQL interview questions for testers, analysts, and developers.",
+    "date": "2026-08-07",
+    "readTime": "11 min read",
+    "featured": true,
+    "content": [
+      {
+        "heading": "What is SQL?",
+        "body": "SQL is a language used to manage and query relational databases.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "Difference between WHERE and HAVING?",
+        "body": "WHERE filters rows before grouping; HAVING filters groups after aggregation.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is a Primary Key?",
+        "body": "A column that uniquely identifies each record in a table.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is a JOIN?",
+        "body": "JOIN combines rows from two or more tables based on related columns.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "Difference between INNER JOIN and LEFT JOIN?",
+        "body": "INNER JOIN returns matching rows; LEFT JOIN returns all left table rows and matching right table rows.",
+        "codeType": "",
+        "code": ""
+      }
+    ]
+  },
+  {
+    "id": "manual-testing-interview-questions",
+    "title": "Top Manual Testing Interview Questions",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "Manual Testing",
+      "QA",
+      "STLC"
+    ],
+    "badge": "Manual Testing,QA",
+    "summary": "Covers STLC, SDLC, defect lifecycle, and testing methodologies.",
+    "date": "2026-08-08",
+    "readTime": "10 min read",
+    "featured": false,
+    "content": [
+      {
+        "heading": "What is Manual Testing?",
+        "body": "Manual Testing involves executing test cases without automation tools.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is STLC?",
+        "body": "Software Testing Life Cycle.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is Defect Life Cycle?",
+        "body": "The stages through which a defect passes from identification to closure.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is Severity and Priority?",
+        "body": "Severity measures impact; Priority determines urgency of fixing.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is Regression Testing?",
+        "body": "Testing to ensure recent changes haven't affected existing functionality.",
+        "codeType": "",
+        "code": ""
+      }
+    ]
+  },
+  {
+    "id": "enovia-interview-questions",
+    "title": "Top ENOVIA Interview Questions",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "ENOVIA",
+      "PLM",
+      "3DEXPERIENCE"
+    ],
+    "badge": "ENOVIA,PLM",
+    "summary": "Important ENOVIA interview questions for PLM professionals.",
+    "date": "2026-08-09",
+    "readTime": "15 min read",
+    "featured": true,
+    "content": [
+      {
+        "heading": "What is ENOVIA?",
+        "body": "ENOVIA is Dassault Systèmes' PLM solution for product lifecycle management.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is a Collaborative Space?",
+        "body": "A secure workspace for managing products, documents, and processes.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is Change Action?",
+        "body": "A process used to manage product changes and approvals.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is Engineering Release?",
+        "body": "It manages product maturity and release processes.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is Bookmark Structure?",
+        "body": "A method for organizing and navigating PLM content.",
+        "codeType": "",
+        "code": ""
+      }
+    ]
+  },
+  {
+    "id": "3dexperience-interview-questions",
+    "title": "Top 3DEXPERIENCE Interview Questions",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "3DEXPERIENCE",
+      "PLM",
+      "ENOVIA"
+    ],
+    "badge": "3DEXPERIENCE,PLM",
+    "summary": "Common 3DEXPERIENCE platform interview questions.",
+    "date": "2026-08-10",
+    "readTime": "15 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "business-analyst-interview-questions",
+    "title": "Top Business Analyst Interview Questions",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "Business Analyst",
+      "Requirements",
+      "Agile"
+    ],
+    "badge": "Business Analyst,Agile",
+    "summary": "Requirement gathering, stakeholder management, and BA interview questions.",
+    "date": "2026-08-11",
+    "readTime": "12 min read",
+    "featured": true,
+    "content": [
+      {
+        "heading": "What is a User Story?",
+        "body": "A short requirement written from the user's perspective.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is BRD?",
+        "body": "Business Requirement Document.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "What is FRD?",
+        "body": "Functional Requirement Document.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "How do you prioritize requirements?",
+        "body": "Using techniques such as MoSCoW or business value analysis.",
+        "codeType": "",
+        "code": ""
+      },
+      {
+        "heading": "Reverse each word in a string.\nInput: \"Hello World\"\nOutput: \"olleH dlroW\"",
+        "body": "Reverse each word in a string.\nInput: \"Hello World\"\nOutput: \"olleH dlroW\"",
+        "codeType": "Java",
+        "code": "public class ReverseEachWord {\n    public static void main(String[] args) {\n        String s = \"Hello World\";\n        String[] words = s.split(\" \");\n\n        for (String word : words) {\n            String rev = \"\";\n            for (int i = word.length()-1; i >= 0; i--)\n                rev += word.charAt(i);\n            System.out.print(rev + \" \");\n        }\n    }\n}"
+      }
+    ]
+  },
+  {
+    "id": "resume-writing-tips",
+    "title": "Top Resume Writing Tips",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "Resume Tips",
+      "ATS",
+      "Career Growth"
+    ],
+    "badge": "Resume Tips,ATS",
+    "summary": "Learn how to create ATS-friendly resumes that attract recruiters.",
+    "date": "2026-08-12",
+    "readTime": "8 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "linkedin-profile-optimization",
+    "title": "LinkedIn Profile Optimization Guide",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "LinkedIn",
+      "Career Growth",
+      "Recruitment"
+    ],
+    "badge": "LinkedIn,Career Growth",
+    "summary": "Improve recruiter visibility through LinkedIn optimization.",
+    "date": "2026-08-13",
+    "readTime": "9 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "naukri-profile-optimization",
+    "title": "Naukri Profile Optimization Guide",
+    "resourceGroup": "Topic Wise",
+    "tags": [
+      "Naukri",
+      "Career Growth",
+      "Recruitment"
+    ],
+    "badge": "Naukri,Career Growth",
+    "summary": "Improve Naukri ranking and recruiter visibility.",
+    "date": "2026-08-14",
+    "readTime": "8 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "tcs-qa-interview-questions",
+    "title": "TCS QA Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "TCS",
+      "QA",
+      "Manual Testing"
+    ],
+    "badge": "TCS,QA",
+    "summary": "Real-world QA interview questions frequently asked in TCS.",
+    "date": "2026-08-15",
+    "readTime": "12 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "infosys-qa-interview-questions",
+    "title": "Infosys QA Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "Infosys",
+      "QA",
+      "Automation Testing"
+    ],
+    "badge": "Infosys,QA",
+    "summary": "Common QA and automation testing questions asked in Infosys.",
+    "date": "2026-08-16",
+    "readTime": "12 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "accenture-sdet-interview-questions",
+    "title": "Accenture SDET Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "Accenture",
+      "SDET",
+      "Automation Testing"
+    ],
+    "badge": "Accenture,SDET",
+    "summary": "Popular SDET interview questions from Accenture.",
+    "date": "2026-08-17",
+    "readTime": "14 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "accenture-business-analyst-interview-questions",
+    "title": "Accenture Business Analyst Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "Accenture",
+      "Business Analyst",
+      "BA"
+    ],
+    "badge": "Accenture,Business Analyst",
+    "summary": "Business Analyst interview questions specifically asked in Accenture.",
+    "date": "2026-08-18",
+    "readTime": "14 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "capgemini-selenium-interview-questions",
+    "title": "Capgemini Selenium Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "Capgemini",
+      "Selenium",
+      "Automation Testing"
+    ],
+    "badge": "Capgemini,Selenium",
+    "summary": "Selenium automation interview questions from Capgemini.",
+    "date": "2026-08-19",
+    "readTime": "13 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "cognizant-api-testing-interview-questions",
+    "title": "Cognizant API Testing Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "Cognizant",
+      "API Testing",
+      "QA"
+    ],
+    "badge": "Cognizant,API Testing",
+    "summary": "Frequently asked API testing questions from Cognizant interviews.",
+    "date": "2026-08-20",
+    "readTime": "12 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "wipro-manual-testing-interview-questions",
+    "title": "Wipro Manual Testing Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "Wipro",
+      "Manual Testing",
+      "QA"
+    ],
+    "badge": "Wipro,QA",
+    "summary": "Common manual testing interview questions from Wipro.",
+    "date": "2026-08-21",
+    "readTime": "11 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "amazon-sdet-interview-questions",
+    "title": "Amazon SDET Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "Amazon",
+      "SDET",
+      "Automation Testing",
+      "Playwright"
+    ],
+    "badge": "Amazon,SDET",
+    "summary": "Behavioral and technical SDET interview questions asked at Amazon.",
+    "date": "2026-08-22",
+    "readTime": "18 min read",
+    "featured": true,
+    "content": []
+  },
+  {
+    "id": "dassault-enovia-qa-interview-questions",
+    "title": "Dassault ENOVIA QA Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "Dassault",
+      "ENOVIA",
+      "QA",
+      "PLM",
+      "3DEXPERIENCE"
+    ],
+    "badge": "Dassault,ENOVIA",
+    "summary": "ENOVIA QA interview questions for PLM professionals.",
+    "date": "2026-08-23",
+    "readTime": "18 min read",
+    "featured": true,
+    "content": []
+  },
+  {
+    "id": "amazon-business-analyst-interview-questions",
+    "title": "Amazon Business Analyst Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "Amazon",
+      "Business Analyst",
+      "SQL"
+    ],
+    "badge": "Amazon,Business Analyst",
+    "summary": "Amazon-specific Business Analyst interview questions and case studies.",
+    "date": "2026-08-24",
+    "readTime": "16 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "tcs-sql-interview-questions",
+    "title": "TCS SQL Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "TCS",
+      "SQL",
+      "Database"
+    ],
+    "badge": "TCS,SQL",
+    "summary": "SQL interview questions commonly asked in TCS.",
+    "date": "2026-08-25",
+    "readTime": "10 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "infosys-business-analyst-interview-questions",
+    "title": "Infosys Business Analyst Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "Infosys",
+      "Business Analyst",
+      "Agile"
+    ],
+    "badge": "Infosys,Business Analyst",
+    "summary": "Business Analyst interview questions frequently asked at Infosys.",
+    "date": "2026-08-26",
+    "readTime": "13 min read",
+    "featured": false,
+    "content": []
+  },
+  {
+    "id": "capgemini-playwright-interview-questions",
+    "title": "Capgemini Playwright Interview Questions",
+    "resourceGroup": "Company Wise",
+    "tags": [
+      "Capgemini",
+      "Playwright",
+      "Automation Testing"
+    ],
+    "badge": "Capgemini,Playwright",
+    "summary": "Playwright automation interview questions asked at Capgemini.",
+    "date": "2026-08-27",
+    "readTime": "14 min read",
+    "featured": false,
+    "content": []
+  }
+]

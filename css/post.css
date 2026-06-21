@@ -1,0 +1,283 @@
+/* =========================================================
+   GrowWithViren — Post Page Styles
+   post.css — individual resource post layout
+   ========================================================= */
+
+/* ---------- Post hero ---------- */
+.post-hero {
+  padding: 56px 0 48px;
+  background: var(--bg-soft);
+  border-bottom: 1px solid var(--border);
+}
+.post-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  margin-bottom: 20px;
+  transition: color var(--t-fast) var(--ease), gap var(--t-fast) var(--ease);
+}
+.post-back:hover {
+  color: var(--primary);
+  gap: 10px;
+}
+.post-hero__meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.post-meta-item {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+.post-title {
+  font-size: clamp(1.8rem, 1.2rem + 2.5vw, 2.8rem);
+  letter-spacing: -0.015em;
+  margin-bottom: 16px;
+  max-width: 800px;
+}
+.post-subtitle {
+  color: var(--ink-muted);
+  font-size: 1.05rem;
+  max-width: 680px;
+}
+
+/* ---------- Post layout: body + sidebar ---------- */
+.post-layout {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 48px;
+  align-items: start;
+}
+
+/* ---------- Q&A body ---------- */
+.post-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.qa-item {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--border);
+}
+.qa-item:last-child {
+  border-bottom: none;
+}
+.qa-question {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.qa-question::before {
+  content: "Q";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  background: var(--primary-light);
+  color: var(--primary);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.qa-answer {
+  color: var(--ink-muted);
+  font-size: 0.97rem;
+  line-height: 1.75;
+  padding-left: 38px;
+}
+
+/* ---------- Sidebar ---------- */
+.post-sidebar {
+  position: sticky;
+  top: calc(var(--header-h) + 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebar-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 24px;
+}
+.sidebar-card--soft {
+  background: var(--bg-soft);
+}
+.sidebar-card__title {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.sidebar-card__text {
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+
+/* Related posts list */
+.related-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 14px;
+}
+.related-list a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  transition: color var(--t-fast) var(--ease);
+  line-height: 1.4;
+}
+.related-list a::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--border);
+  flex-shrink: 0;
+  transition: background var(--t-fast) var(--ease);
+}
+.related-list a:hover {
+  color: var(--primary);
+}
+.related-list a:hover::before {
+  background: var(--primary);
+}
+
+/* ---------- Responsive post layout ---------- */
+@media (max-width: 900px) {
+  .post-layout {
+    grid-template-columns: 1fr;
+  }
+  .post-sidebar {
+    position: static;
+  }
+}
+
+/* =========================================================
+   Hidden State Fix
+   ========================================================= */
+
+#postLoading[hidden] {
+  display: none !important;
+}
+
+#postContent[hidden] {
+  display: none !important;
+}
+
+#postError[hidden] {
+  display: none !important;
+}
+
+/* =========================================================
+   Breadcrumb Navigation
+   ========================================================= */
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin-bottom: 18px;
+
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+
+  flex-wrap: wrap;
+}
+
+.breadcrumb a {
+  color: var(--ink-muted);
+  text-decoration: none;
+
+  transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+  color: var(--primary);
+}
+
+.breadcrumb span:last-child {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   Table Of Contents
+   ========================================================= */
+
+.toc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-top: 12px;
+}
+
+.toc-list li {
+  list-style: none;
+}
+
+.toc-list a {
+  color: var(--ink-muted);
+
+  text-decoration: none;
+
+  font-size: 0.9rem;
+
+  line-height: 1.5;
+
+  transition: all .3s ease;
+}
+
+.toc-list a:hover {
+  color: var(--primary);
+
+  padding-left: 4px;
+}
+
+
+/* =========================================================
+   Share Buttons
+   ========================================================= */
+
+.share-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Code Block */
+
+.qa-code {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #111827;
+
+  padding: 18px;
+  border-radius: 12px;
+
+  overflow-x: auto;
+  margin: 16px 0 0 38px;
+
+  font-family: Consolas, Monaco, monospace;
+}
