@@ -73,21 +73,39 @@ document.querySelector(
 
   const div = document.createElement('div');
 
-  div.className = 'qa-item';
+const hasAnswer =
+  item.body &&
+  item.body.trim() !== '';
 
-  div.id = sectionId;
+div.className = hasAnswer
+  ? 'qa-item'
+  : 'qa-item no-answer';
 
-  div.innerHTML = `
+div.id = sectionId;
+
+div.innerHTML = `
   <h2 class="qa-question">${escHtml(item.heading)}</h2>
 
-  <p class="qa-answer">
-    ${escHtml(item.body)}
-  </p>
+  ${
+    hasAnswer
+      ? `
+        <p class="qa-answer">
+          ${escHtml(item.body)}
+        </p>
+      `
+      : ''
+  }
 
   ${
-    (item.code && item.code !== 'nan')
-  ? `<pre class="qa-code"><code>${escHtml(item.code)}</code></pre>`
-  : ''
+    item.code &&
+    item.code.trim() !== '' &&
+    item.code !== 'nan'
+      ? `<pre class="qa-code"><code>${
+  escHtml(item.code)
+    .replace(/\\n/g, '\n')
+    .replace(/\\t/g, '    ')
+}</code></pre>`
+      : ''
   }
 `;
 

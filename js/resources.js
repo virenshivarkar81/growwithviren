@@ -40,7 +40,7 @@ async function init() {
     console.error('Failed to load resources:', err);
   }
 }
-
+/*
 if (searchInput) {
 
   searchInput.addEventListener('input', (e) => {
@@ -74,7 +74,58 @@ if (searchInput) {
 
   });
 
+} */
+
+
+  if (searchInput) {
+
+searchInput.addEventListener('input', (e) => {
+
+const keyword = e.target.value.toLowerCase().trim();
+
+currentPage = 0;
+grid.innerHTML = '';
+
+if (keyword !== '') {
+
+  // Search across ALL resources
+  filteredResources = allResources.filter(resource => {
+
+    return (
+      resource.title.toLowerCase().includes(keyword) ||
+      resource.summary.toLowerCase().includes(keyword) ||
+      resource.badge.toLowerCase().includes(keyword)
+    );
+
+  });
+
+} else {
+
+  // When search is cleared, go back to selected filter
+  filteredResources = activeFilter === 'all'
+    ? allResources
+    : allResources.filter(r =>
+        r.badge
+          .split(',')
+          .map(b => b.trim())
+          .includes(activeFilter)
+      );
+
 }
+
+if (filteredResources.length > 0) {
+  renderNextPage();
+  emptyState.hidden = true;
+} else {
+  emptyState.hidden = false;
+  loadMoreWrap.hidden = true;
+}
+
+
+});
+
+}
+
 
 /* ---------- Build filter buttons from unique badges ---------- */
 function buildFilters() {

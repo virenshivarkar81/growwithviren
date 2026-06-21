@@ -1,6 +1,15 @@
 import pandas as pd
 import json
 
+
+# ==================================================
+# HELPERS
+# ==================================================
+
+def clean(value):
+    return "" if pd.isna(value) else str(value).strip()
+
+
 # ==================================================
 # RESOURCES
 # ==================================================
@@ -31,46 +40,47 @@ for _, article in articles.iterrows():
 
         content.append({
 
-            "heading": str(q["Question"]),
+            "heading": clean(q["Question"]),
 
-            "body": str(q["Answer"]),
+            "body": clean(q["Answer"]),
 
-            "codeType": ""
-            if pd.isna(q.get("CodeType"))
-            else str(q.get("CodeType")).strip(),
+            "codeType": clean(q.get("CodeType")),
 
-            "code": ""
-            if pd.isna(q.get("Code"))
-            else str(q.get("Code")).strip()
+            "code": clean(q.get("Code"))
+
         })
 
     resources.append({
 
-        "id": article_id,
+        "id": clean(article["ArticleID"]),
 
-        "title": article["Title"],
+        "title": clean(article["Title"]),
 
-        "resourceGroup": article["ResourceGroup"],
+        "resourceGroup": clean(article["ResourceGroup"]),
 
         "tags": [
             tag.strip()
-            for tag in str(article["Tags"]).split(",")
+            for tag in clean(article["Tags"]).split(",")
+            if tag.strip()
         ],
 
-        "badge": article["Badge"],
+        "badge": clean(article["Badge"]),
 
-        "summary": article["Summary"],
+        "summary": clean(article["Summary"]),
 
-        "date": str(article["Date"])[:10],
+        "date": str(article["Date"])[:10]
+        if not pd.isna(article["Date"])
+        else "",
 
-        "readTime": article["ReadTime"],
+        "readTime": clean(article["ReadTime"]),
 
-        "featured": str(
+        "featured": clean(
             article["Featured"]
-        ).strip().lower() == "yes",
+        ).lower() == "yes",
 
         "content": content
     })
+
 
 with open(
     'data/resources.json',
@@ -94,10 +104,6 @@ print(
 # TESTIMONIALS
 # ==================================================
 
-# ==================================================
-# TESTIMONIALS
-# ==================================================
-
 testimonials_df = pd.read_excel(
     'data/resources.xlsx',
     sheet_name='Testimonials'
@@ -111,24 +117,26 @@ for _, row in testimonials_df.iterrows():
 
         "id": int(row["ID"]),
 
-        "initials": str(row["Initials"]).strip(),
+        "initials": clean(row["Initials"]),
 
-        "name": str(row["Name"]).strip(),
+        "name": clean(row["Name"]),
 
-        "role": str(row["Role"]).strip(),
+        "role": clean(row["Role"]),
 
-        "company": str(row["Company"]).strip(),
+        "company": clean(row["Company"]),
 
-        "quote": str(row["Quote"]).strip(),
+        "quote": clean(row["Quote"]),
 
-        "featured": str(
+        "featured": clean(
             row["Featured"]
-        ).strip().lower() == "yes",
+        ).lower() == "yes",
 
-        "linkedin": ""
-        if pd.isna(row.get("LinkedIn"))
-        else str(row["LinkedIn"]).strip()
+        "linkedin": clean(
+            row.get("LinkedIn")
+        )
+
     })
+
 
 with open(
     'data/testimonials.json',

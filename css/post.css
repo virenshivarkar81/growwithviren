@@ -100,6 +100,16 @@
   padding-left: 38px;
 }
 
+.qa-item.no-answer {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: none;
+}
+
+.qa-item.no-answer .qa-question {
+  margin-bottom: 0;
+}
+
 /* ---------- Sidebar ---------- */
 .post-sidebar {
   position: sticky;
@@ -276,8 +286,13 @@
   padding: 18px;
   border-radius: 12px;
 
-  overflow-x: auto;
   margin: 16px 0 0 38px;
 
   font-family: Consolas, Monaco, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
 }

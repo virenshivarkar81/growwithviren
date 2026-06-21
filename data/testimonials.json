@@ -3,180 +3,40 @@
     "id": 1,
     "initials": "VS",
     "name": "Virendra Shivarkar",
-    "role": "QA Lead",
-    "company": "Dassault Systemes",
-    "quote": "Excellent guidance on resume optimization.",
+    "role": "Senior Test Developer",
+    "company": "[Company Name]",
+    "quote": "The resume was restructured to highlight my QA Automation, Playwright, and leadership experience, resulting in a much stronger professional profile.",
     "featured": true,
     "linkedin": "https://www.linkedin.com/in/virendra-shivarkar-881945110/"
   },
   {
     "id": 2,
-    "initials": "AK",
-    "name": "Amit Kulkarni",
-    "role": "SDET",
-    "company": "Accenture",
-    "quote": "ATS score improved significantly.",
+    "initials": "SD",
+    "name": "Sonali Dhane",
+    "role": "HR Executive",
+    "company": "Infinity Software Tech",
+    "quote": "ATS optimization and content enhancement helped present my HR experience in a professional and recruiter-friendly format.",
     "featured": true,
-    "linkedin": "https://www.linkedin.com/in/virendra-shivarkar-881945110/"
+    "linkedin": ""
   },
   {
     "id": 3,
-    "initials": "SP",
-    "name": "Sneha Patil",
-    "role": "Business Analyst",
-    "company": "Infosys",
-    "quote": "Got multiple interview calls after profile update.",
-    "featured": false,
-    "linkedin": "https://www.linkedin.com/in/virendra-shivarkar-881945110/"
+    "initials": "PF",
+    "name": "Prashant Fadtare",
+    "role": "Network & Cloud Engineer",
+    "company": "[Company Name]",
+    "quote": "The resume effectively showcased my networking, cloud technologies, projects, and achievements while improving ATS compatibility.",
+    "featured": true,
+    "linkedin": ""
   },
   {
     "id": 4,
-    "initials": "RK",
-    "name": "Rahul Khanna",
-    "role": "QA Engineer",
-    "company": "Product Company",
-    "quote": "The resume review helped me highlight my achievements more effectively. Within a month, I started receiving interview calls from multiple companies.",
+    "initials": "SS",
+    "name": "Shubham Shetyanvar",
+    "role": "Frontend Developer",
+    "company": "[Company Name]",
+    "quote": "My resume was transformed into a modern, impactful profile that clearly highlighted my frontend development skills, projects, and career progression.",
     "featured": true,
-    "linkedin": "https://www.linkedin.com/in/virendra-shivarkar-881945110/"
-  },
-  {
-    "id": 5,
-    "initials": "NP",
-    "name": "Neha Patil",
-    "role": "Business Analyst",
-    "company": "IT Services",
-    "quote": "The suggestions on structuring my profile and showcasing project experience made a noticeable difference in recruiter responses.",
-    "featured": true,
-    "linkedin": "https://www.linkedin.com/in/virendra-shivarkar-881945110/"
-  },
-  {
-    "id": 6,
-    "initials": "SG",
-    "name": "Saurabh Gupta",
-    "role": "Automation Tester",
-    "company": "FinTech Organization",
-    "quote": "I was struggling to get shortlisted despite having good experience. After updating my resume, I started getting relevant interview opportunities.",
-    "featured": false,
-    "linkedin": "https://www.linkedin.com/in/virendra-shivarkar-881945110/"
-  },
-  {
-    "id": 7,
-    "initials": "PM",
-    "name": "Priya Mehta",
-    "role": "Manual Tester",
-    "company": "Consulting Firm",
-    "quote": "The ATS-focused improvements helped my resume get through initial screening rounds much more consistently.",
-    "featured": true,
-    "linkedin": "https://www.linkedin.com/in/virendra-shivarkar-881945110/"
-  },
-  {
-    "id": 8,
-    "initials": "AJ",
-    "name": "Amit Joshi",
-    "role": "SDET",
-    "company": "Technology Startup",
-    "quote": "The guidance was practical and easy to implement. Recruiters were able to understand my profile much better after the changes.",
-    "featured": false,
-    "linkedin": ""
-  },
-  {
-    "id": 9,
-    "initials": "KD",
-    "name": "Kavita Deshmukh",
-    "role": "SAP MM Consultant",
-    "company": "Manufacturing Industry",
-    "quote": "The profile optimization recommendations helped me present my experience more clearly and professionally.",
-    "featured": false,
-    "linkedin": ""
-  },
-  {
-    "id": 10,
-    "initials": "VK",
-    "name": "Vivek Kumar",
-    "role": "QA Lead",
-    "company": "Enterprise Solutions",
-    "quote": "The resume review identified gaps that I had overlooked for years. The final version looked much stronger and more impactful.",
-    "featured": true,
-    "linkedin": ""
-  },
-  {
-    "id": 11,
-    "initials": "MS",
-    "name": "Megha Shah",
-    "role": "Business Analyst",
-    "company": "Healthcare Domain",
-    "quote": "The feedback was detailed, actionable, and focused on what recruiters actually look for. Highly recommended.",
-    "featured": false,
-    "linkedin": ""
-  },
-  {
-    "id": 12,
-    "initials": "AR",
-    "name": "Ankit Rao",
-    "role": "Automation Engineer",
-    "company": "Product Development",
-    "quote": "My LinkedIn profile became more visible after applying the suggested changes. I started receiving recruiter messages regularly.",
-    "featured": true,
-    "linkedin": ""
-  },
-  {
-    "id": 13,
-    "initials": "PS",
-    "name": "Pooja Sharma",
-    "role": "QA Analyst",
-    "company": "Banking Sector",
-    "quote": "The improvements made my resume concise while still showcasing my key accomplishments. The difference was immediate.",
-    "featured": false,
-    "linkedin": ""
-  },
-  {
-    "id": 14,
-    "initials": "RG",
-    "name": "Rohan Gupta",
-    "role": "Software Tester",
-    "company": "E-Commerce Company",
-    "quote": "The guidance helped me align my resume with current industry expectations and ATS requirements.",
-    "featured": false,
-    "linkedin": ""
-  },
-  {
-    "id": 15,
-    "initials": "ST",
-    "name": "Snehal Thakur",
-    "role": "Senior QA Engineer",
-    "company": "SaaS Company",
-    "quote": "The review process was thorough and professional. My updated resume generated significantly more interest from recruiters.",
-    "featured": true,
-    "linkedin": ""
-  },
-  {
-    "id": 16,
-    "initials": "DP",
-    "name": "Deepak Patil",
-    "role": "PLM Consultant",
-    "company": "Engineering Solutions",
-    "quote": "The recommendations helped me better showcase my ENOVIA and 3DEXPERIENCE experience. I received positive feedback from hiring managers.",
-    "featured": false,
-    "linkedin": ""
-  },
-  {
-    "id": 17,
-    "initials": "MB",
-    "name": "Mansi Bhosale",
-    "role": "Test Automation Engineer",
-    "company": "Technology Services",
-    "quote": "The resume transformation highlighted my automation skills effectively and improved my interview conversion rate.",
-    "featured": true,
-    "linkedin": ""
-  },
-  {
-    "id": 18,
-    "initials": "YS",
-    "name": "Yogesh Singh",
-    "role": "Senior Business Analyst",
-    "company": "Global IT Services",
-    "quote": "The profile review helped me present complex project experience in a simple and impactful way.",
-    "featured": false,
     "linkedin": ""
   }
 ]
